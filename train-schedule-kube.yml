@@ -5,7 +5,7 @@ metadata:
   annotations:
     prometheus.io/scrape: 'true'
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: train-schedule
   ports:
